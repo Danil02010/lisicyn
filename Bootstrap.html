@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Form Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Форма</h2>
+
+        <div class="form-group">
+            <label for="data">Введите данные:</label>
+            <input type="text" class="form-control" id="data" placeholder="Введите данные">
+        </div>
+
+        <div class="form-group">
+            <label for="select">Выберите значение:</label>
+            <select class="form-control" id="select">
+                <option>Значение 1</option>
+                <option>Значение 2</option>
+                <option>Значение 3</option>
+            </select>
+        </div>
+
+        <button class="btn btn-primary" onclick="addToTable()">Добавить в таблицу</button>
+
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>Данные</th>
+                    <th>Значение</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        function addToTable() {
+            var data = $('#data').val();
+            var selectValue = $('#select').val();
+            
+            var row = '<tr><td>' + data + '</td><td>' + selectValue + '</td></tr>';
+            
+            $('#table-body').append(row);
+        }
+    </script>
+</body>
+</html>
