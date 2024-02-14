@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Host: file:///E:/site/site%203.0/index.html
+Sitemap: http://file:///E:/site/site%203.0/index.html/sitemap.xml
