@@ -2,7 +2,7 @@
 <url>
 <loc>file:///E:/site/index.html</loc>
 <priority>1.0</priority>
-<changefreq>always</changefreq>
+<changefreq>yearly</changefreq>
 <lastmod>2024-02-14</lastmod>
 </url>
 <url>
@@ -26,7 +26,7 @@
 <url>
 <loc>file:///E:/site/Personal.html</loc>
 <priority>0.5</priority>
-<changefreq>always</changefreq>
+<changefreq>monthly</changefreq>
 <lastmod>2024-02-14</lastmod>
 </url>
 </urlset>
