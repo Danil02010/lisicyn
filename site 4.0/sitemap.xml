@@ -13,13 +13,13 @@
 </url>
 <url>
 <loc>file:///E:/site/Products.html</loc>
-<priority>0.7</priority>
+<priority>1.0</priority>
 <changefreq>always</changefreq>
 <lastmod>2024-02-14</lastmod>
 </url>
 <url>
 <loc>file:///E:/site/Client.html</loc>
-<priority>0.2</priority>
+<priority>0.6</priority>
 <changefreq>always</changefreq>
 <lastmod>2024-02-14</lastmod>
 </url>
